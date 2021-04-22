@@ -1,0 +1,50 @@
+body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+#map {
+    margin: 0;
+    padding: 0;
+    position: absolute;
+}
+
+#backButton {
+    position: absolute;
+    left: 20px;
+    top: 20px;
+    z-index: 1;
+    width: 150px;
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+    font-size: 20px;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
+}
+
+#MOTContainer {
+    position: absolute;
+    left: 88.5vw;
+    top: 50vh;
+    z-index: 1;
+    width: 200px;
+    height: 400px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
+}
+
+.logos {
+    width: 50%;
+    padding: 10px;
+}
+
+.logoText {
+    display: inline-block;
+    font-size: 25px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    left: 75%;
+    text-align: center;
+    align-content: center;
+}
