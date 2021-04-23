@@ -5,13 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src='https://api.mapbox.com/mapbox-gl-js/v2.1.1/mapbox-gl.js'></script>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style-map.css">
     <link href='https://api.mapbox.com/mapbox-gl-js/v2.1.1/mapbox-gl.css' rel='stylesheet' />
     <title>Document</title>
 </head>
 <body>
 
-    <a href="index.php"><button id="backButton">❮ Back</button></a>
+    <a href="index.php"><button id="backButton">Back</button></a>
     <div id="MOTContainer"></div>
     <div id='map' style='width: 100vw; height: 100vh;'></div>
 

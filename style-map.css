@@ -2,6 +2,7 @@ body {
     margin: 0;
     padding: 0;
     overflow: hidden;
+    font-family: "SBB Web Light";
 }
 
 #map {
@@ -17,34 +18,43 @@ body {
     z-index: 1;
     width: 150px;
     height: 50px;
-    border-radius: 10px;
     border: none;
     font-size: 20px;
     box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
+    background-color: #EDF2F4;
+    font-family: "SBB Web Light";
 }
 
 #MOTContainer {
     position: absolute;
-    left: 88.5vw;
-    top: 50vh;
+    left: 180px;
+    top: 20px;
     z-index: 1;
-    width: 200px;
-    height: 400px;
-    background-color: white;
-    border-radius: 10px;
+    width: 300px;
+    height: 100px;
+    background-color: #EDF2F4;
     box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
+    transition: width 200ms;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+#MOTContainer:hover {
+    width: 600px
 }
 
 .logos {
-    width: 50%;
+    width: 10%;
     padding: 10px;
+    overflow: hidden;
 }
 
 .logoText {
     display: inline-block;
     font-size: 25px;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
     left: 75%;
     text-align: center;
-    align-content: center;
+    
+    
 }
