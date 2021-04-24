@@ -11,12 +11,12 @@
     <div id="form-wrapper">
         <form action="" method="POST">
             <label for="from">From</label>
-            <input type="text" name="from">
+            <input type="text" name="from" value="<?php echo $_GET['RequestFrom'] ?>">
             
             <br>
             
             <label for="to" id="to-label">To</label>
-            <input type="text" name="to">
+            <input type="text" name="to" value="<?php echo $_GET['RequestTo'] ?>">
 
             <br>
             <p>ex. "Basel, Claraplatz"</p>
