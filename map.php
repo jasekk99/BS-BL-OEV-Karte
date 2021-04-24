@@ -11,7 +11,7 @@
 </head>
 <body>
 
-    <a href="index.php"><button id="backButton">Back</button></a>
+    <a href="<?php echo("index.php?RequestFrom=".$_GET['RequestFrom']."&RequestTo=".$_GET['RequestTo']) ?>"><button id="backButton">Back</button></a>
     <div id="MOTContainer"></div>
     <div id='map' style='width: 100vw; height: 100vh;'></div>
 
